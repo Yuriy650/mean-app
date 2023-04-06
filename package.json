@@ -1,0 +1,26 @@
+{
+  "name": "mean-app",
+  "version": "1.0.0",
+  "description": "\"This is MEAN app\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "^0.1.1",
+    "cors": "*",
+    "express": "*",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.15.0",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^2.0.22",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "YL",
+  "license": "ISC"
+}
